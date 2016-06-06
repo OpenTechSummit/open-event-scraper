@@ -148,15 +148,15 @@ function foldByLevel(sponsors) {
 
     switch (sponsorItem.level) {
       case '1':
-        sponsorItem.divclass = "col-md-4"
+        sponsorItem.divclass = "largeoffset col-md-4"
         sponsorItem.imgsize = "large"
         break;
       case '2':
-        sponsorItem.divclass = "col-md-3"
+        sponsorItem.divclass = "mediumoffset col-md-2"
         sponsorItem.imgsize = "medium"
         break;
       case '3':
-        sponsorItem.divclass = "col-md-2"
+        sponsorItem.divclass = "largeoffset col-md-2"
         sponsorItem.imgsize = "small"
         break;
     }

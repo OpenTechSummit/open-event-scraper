@@ -241,3 +241,9 @@ body {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+.mediumoffset:first-child{
+  margin-left: 8.33%;
+}
+.largeoffset {
+  margin-left: 41.66666667%;
+}
